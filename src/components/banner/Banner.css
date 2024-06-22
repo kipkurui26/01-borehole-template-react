@@ -29,6 +29,7 @@
     padding: 10px 0;
 }
 .banner__button{
+    width: fit-content;
     margin: 20px 0;
 }
 .banner__btn{
@@ -60,7 +61,7 @@
     }
     .banner__container{
         width: 100%;
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.689);
     }
     .banner__title{
         font-size: 1.7em;

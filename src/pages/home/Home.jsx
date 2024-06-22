@@ -1,5 +1,6 @@
 import Banner from "../../components/banner/Banner"
 import bannerImage from '../../assets/imgs/bannerImage.jpg'
+import Services from './Services'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
             bannerButton={"Get Quotation"}
             bannerImage={bannerImage}
         />
+        <Services />
     </section>
   )
 }
